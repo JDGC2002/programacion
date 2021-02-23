@@ -6,6 +6,7 @@ MENSAJE_OPTIMO = "El valor del paciente es óptimo"
 MENSAJE_SOBRE_LIMITE = "El valor del paciente está sobre el límite"
 MENSAJE_SOBRE_ALTO = "El valor del paciente está alto"
 MENSAJE_SOBRE__MUY_ALTO = "El valor del paciente está muy alto"
+MENSAJE_INVALIDO = "El valor es inválido"
 MENSAJE_DESPEDIDA = "Proceso Finalizado"
 
 #------Entrada al código---------#
@@ -28,12 +29,15 @@ else:
 print (resultado_tri)
 
 HOMOCISTEINA = int(input(PREGUNTA_DATOS_HOM))
+isErroneoH = HOMOCISTEINA <= 2
 isOptimoH = HOMOCISTEINA > 2 and HOMOCISTEINA <= 15
 isSobreLimiteOptimoH = HOMOCISTEINA > 15 and HOMOCISTEINA <= 30
 isAltoH = HOMOCISTEINA > 30 and HOMOCISTEINA <= 100
 resultadoH = ""
 
-if (isOptimoH):
+if (isErroneoH):
+    resultadoH = MENSAJE_INVALIDO
+elif (isOptimoH):
     resultadoH = MENSAJE_OPTIMO
 elif (isSobreLimiteOptimoH):
     resultadoH = MENSAJE_SOBRE_LIMITE
