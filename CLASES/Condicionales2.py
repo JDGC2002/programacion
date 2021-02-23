@@ -9,6 +9,7 @@ print (MENSAJE_BIENVENIDA)
 edad = int(input(PREGUNTA_EDAD))
 isMayorEdad = edad >= 18
 resultado = ""
+
 if (isMayorEdad):
     resultado = MENSAJE_MAYOR_EDAD
 else:
