@@ -1,3 +1,8 @@
+#Existe algo llamado return, eso significa que la función devuelve algo modificado, en caso de que solo devuelve lo que se le indicó, será return none
+#un ejemplo de return none sería print, pues solo muestra lo que se le indicó
+#un ejemplo de return algo, sería round, el cual hace un proceso de redondeo y devuelve una modificación
+#ponemos return none por buena práctica.
+
 #------función para línea divisora------#
 def splitterline (symbol='-', quantity=10):
     print (symbol*quantity)
@@ -22,10 +27,6 @@ splitterline ('-', 10)
 #---------sumar numeros-------#
 
 def add(a=0, b=0):
-    '''
-        Devuelve la suma de dos números a y b
-        sus valores predeterminados son cero
-    '''
     sum = a + b
     return sum
 
@@ -77,3 +78,73 @@ def calculate (operation, Anumber = 0, Bnumber = 0):
     print(operation(Anumber,Bnumber))
 
 calculate(multiply, NumberA, NumberB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
