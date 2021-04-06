@@ -1,6 +1,13 @@
-import Funciones as fn
+import Funciones as fn 
 
-print (fn.add(8,5))
+fn.splitterline()
+print ("values will be added")
+Value1 = float(input("introduce value for a: "))
+Value2 = float(input("introduce value for b: "))
+print(fn.add(Value1, Value2))
+fn.splitterline
 
-fn.calculate (fn.add, 5, 5)
-
+print ("Value b will be substracted to value a")
+Value1 = float(input("introduce value for a: "))
+Value2 = float(input("introduce value for b: "))
+print(fn.calculate(fn.substract, Value1, Value2))
