@@ -75,4 +75,6 @@ for edad in edades:
 
 print (PosicionesPares)
 
+print (9%2)
+
 
