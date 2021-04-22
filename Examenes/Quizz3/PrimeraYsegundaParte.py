@@ -149,7 +149,7 @@ class Favoritos (Pagina):
 
 
 
-favorito1 = Favoritos("edsads", "dasd", "15/810/04", "hola", "15/456/12")
+favorito1 = Favoritos("Canción", "mp3", "1989", "El condor herido", "22/04/21")
 favorito1.ModificarTemas ()
 
 
