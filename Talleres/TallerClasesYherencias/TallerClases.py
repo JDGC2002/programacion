@@ -59,7 +59,7 @@ class Nutricionista ():
 nutricionista1 = Nutricionista(19, "Diego", "Universidad CES")
 nutricionista1.IMC()
 
-# PUNTO 4
+#PUNTO 4
 
 class Canguro():
     def __init__(self, edad, id, nombre):
@@ -69,8 +69,23 @@ class Canguro():
 
     def saltos (self, saltos):
         for numero in range(saltos):
-            print ("El canguro ha dado: ", saltos)
+            print ("El canguro ha dado: ", numero+1)
 
 canguro1 = Canguro("9", "01", "Cangu")
 canguro1.saltos (5)
 
+# PUNTO 5
+
+class Piano():
+    def __init__ (self, color, modelo):
+        self.color = color
+        self.modelo = modelo
+
+    def cancion(self):
+        cancion = int(input('''Escoge el número de veces que quieres que se reproduzca la canción triste: '''))
+        print ("Plin plin plon... "* cancion)
+        print ('''La canción es "Gwyn, lord of cinder - Dark Souls soundtrack"''')
+
+
+Piano1 = Piano("Negro", "Yamaha")
+Piano1.cancion ()
