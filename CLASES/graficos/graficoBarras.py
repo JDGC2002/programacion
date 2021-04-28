@@ -7,5 +7,5 @@ plt.bar(lenguajes, encuesta)
 plt.title ('Lenguajes más usados')
 plt.xlabel ('lenguajes de programación')    
 plt.ylabel ('% de uso de lenguajes')
-plt.savefig ('GraficoLenguajes.png')
 plt.show ()
+
