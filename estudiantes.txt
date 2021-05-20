@@ -1,0 +1,2 @@
+Archivo de datos de estudiantes
+nombre:Diego edad:19 estatura:1.75
